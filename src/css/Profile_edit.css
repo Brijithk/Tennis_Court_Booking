@@ -1,0 +1,1072 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+.Profile-edit_main_container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  
+}
+
+
+.Profile-edit_top_container{
+  /* background-color: violet; */
+}
+
+
+.Profile-edit_banner_container{
+  background-image: url('/images/profile_background.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 35vh;
+  position: relative;
+  
+}
+
+.Profile-edit_save_button{
+  position: absolute;
+  bottom: 8%;
+  right: 19%;
+  background-color:white ;
+  color: #689F38;
+  border: 2px solid white;
+  border-radius: 15px ;
+}
+
+.Profile-edit_cancel_button{
+  position: absolute;
+  bottom: 8%;
+  right: 12%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px ;
+}
+
+.Profile-edit-Image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -26%;
+  left:12%;
+  border: 6px solid white;
+}
+
+
+.Profile-edit_upload_button{
+  position: absolute;
+  bottom: -23%;
+  left: 22%;
+  background-color: #689F38;
+  color: white;
+  border: 2px solid white;
+  border-radius: 17px ;
+  height: 43px;
+  width: 150px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Profile-edit_remove_button{
+  position: absolute;
+  bottom: -23%;
+  left: 32.5%;
+ background-color: #F0F5EB;  
+  border: 2px solid #689F38;
+  color: #689F38;
+  border-radius: 17px; 
+  height: 43px;
+  width: 100px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Profile-edit_banner_info{
+  background-color: white;
+  height: 15vh;
+  width: 100%;
+  /* flex: 3; */
+}
+
+.Profile-edit_bottom_container{
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.Profile-edit_bottom_title{
+    color: black;
+}
+
+
+.Profile-edit_bottom_title{
+    width: 75%;
+    /* background-color: yellow; */
+}
+
+.Profile-edit_bottom_title_text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.Profile-edit_items_container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Four equal columns */
+  gap: 16px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+.Profile-edit_input{
+    width: 95%;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+
+@media screen and (min-width:1024px) and (max-width: 1280px) {
+  .Profile-edit_items_container{
+    grid-template-columns: repeat(3, 1fr); /* Two equal columns */
+  }
+
+.Profile-edit-Image{
+  width: 130px;
+  height: 130px;
+  bottom: -29%;
+}
+
+.Profile-edit_banner_info{
+  background-color: white;
+  height: 15vh;
+  width: 100%;
+  /* flex: 3; */
+}
+  
+  .Profile-edit_banner_container{
+  width: 100%;
+  height: 33vh;
+  }
+
+  .Profile-edit_input{
+    height: 40px;
+}
+
+}
+
+@media screen and (min-width:1024px) and (max-width: 1095px) {
+  
+  .Profile-edit_save_button{
+    bottom: 8%;
+    right: 18%;
+    font-size: 14px !important;
+  font-weight: 120px;
+  }
+
+.Profile-edit_cancel_button{
+  bottom: 8%;
+  right: 9%;
+  font-size: 14px !important;
+  font-weight: 120px;
+}
+  .Profile-edit_upload_button{
+  position: absolute;
+  bottom: -27%;
+  left: 25%;
+  background-color: #689F38;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px ;
+  height: 43px;
+  width: 145px;
+  font-size: 14px !important;
+  font-weight: 120px;
+}
+
+.Profile-edit_remove_button{
+  position: absolute;
+  bottom: -27%;
+  left: 40%;
+  color: #689F38;
+  border: 1px solid #689F38;
+  border-radius: 15px ;
+  height: 43px;
+  width: 95px;
+  font-size: 14px !important;
+  font-weight: 120px;
+}
+}
+
+@media screen and (min-width:1095px) and (max-width: 1280px) {
+   .Profile-edit_save_button{
+    bottom: 8%;
+    right: 18%;
+    font-size: 14px !important;
+  font-weight: 120px;
+  }
+
+.Profile-edit_cancel_button{
+  bottom: 8%;
+  right: 9.5%;
+  font-size: 14px !important;
+  font-weight: 120px;
+}
+
+.Profile-edit_upload_button{
+  position: absolute;
+  bottom: -27%;
+  left: 24%;
+  height: 43px;
+  width: 145px;
+  border-radius: 15px ;
+  font-size: 14px !important;
+  font-weight: 120px;
+}
+
+.Profile-edit_remove_button{
+  position: absolute;
+  bottom: -27%;
+  left: 37.5%;
+  color: #689F38;
+  border: 1px solid #689F38;
+  border-radius: 15px ;
+  height: 43px;
+  width: 92px;
+  font-size: 14px !important;
+  font-weight: 120px;
+}
+}
+
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+  .Profile-edit_items_container{
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  }
+  .Profile-edit_banner_container{
+    width: 100%;
+    height: 29vh;
+  }
+   .Profile-edit_input{
+    width: 88%;
+    height: 40px;
+  }
+
+  
+}
+
+
+@media screen and (min-width:992px) and (max-width: 1024px) {
+
+  .Profile-edit_items_container{
+     gap: 4px;
+  }
+
+  .Profile-edit-Image{
+  width: 130px;
+  height: 130px;
+  bottom: -34%;
+  left:12%;
+  
+  }
+
+  .Profile-edit_save_button{
+    bottom: 8%;
+    right: 18%;
+    font-size: 14px !important;
+    font-weight: 120px;
+  }
+
+  .Profile-edit_cancel_button{
+    bottom: 8%;
+    right: 9%;
+    font-size: 14px !important;
+    font-weight: 120px;
+  }
+
+  .Profile-edit_upload_button{
+    position: absolute;
+    bottom: -27%;
+    left: 27.8%;
+    height: 43px;
+    width: 145px;
+    border-radius: 15px ;
+    font-size: 14px !important;
+    font-weight: 120px;
+  }
+
+.Profile-edit_remove_button{
+  position: absolute;
+  bottom: -27%;
+  left: 44.8%;
+  color: #689F38;
+  border: 1px solid #689F38;
+  border-radius: 15px ;
+  height: 43px;
+  width: 92px;
+  font-size: 14px !important;
+  font-weight: 120px;
+}
+}
+
+
+
+
+@media screen and (min-width:764px) and (max-width: 992px) {
+  .Profile-edit_save_button{
+    bottom: 8%;
+    right: 18%;
+  }
+
+   .Profile-edit_items_container{
+     gap: 4px;
+  }
+
+
+  .Profile-edit_cancel_button{
+    bottom: 8%;
+    right: 9%;
+  }
+
+  .Profile-edit_upload_button{
+    position: absolute;
+    bottom: -27%;
+    left: 27.8%;
+    height: 43px;
+    width: 145px;
+    border-radius: 15px ;
+    font-size: small;
+  }
+
+.Profile-edit_remove_button{
+  position: absolute;
+  bottom: -27%;
+  left: 44.8%;
+  color: #689F38;
+  border: 1px solid #689F38;
+  border-radius: 15px ;
+  height: 43px;
+  width: 92px;
+  
+}
+}
+@media screen and (min-width:590px) and (max-width: 768px) {
+.Profile-edit-Image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  /* bottom: -26%; */
+  left:12%;
+  border: 6px solid white;
+}
+
+}
+
+@media screen and (min-width:320px) and (max-width: 768px) {
+  
+  .Profile-edit_banner_container{
+    width: 100%;
+    height: 20vh;
+  }
+
+  .Profile-edit-Image{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    bottom: -32%;
+    left:12%;
+  
+  }
+
+  .Profile-edit_banner_info{
+    margin-bottom:-35px ;
+  }
+  
+  .Profile-edit_items_container{
+    grid-template-columns: repeat(1, 1fr); /* One column */
+    /* margin-bottom: 15px; */
+     gap: 8px;
+  }
+
+  
+
+  .Profile-edit_input::placeholder {
+  font-size: 14px; /* Set to your desired size */
+}
+
+   .Profile-edit_input{
+    width: 95%;
+    height: 30px;
+     padding: 4px 8px;
+     border-color: #E4DFDF;
+  }
+  
+  .Profile-edit_upload_button{
+    left: 15%;
+  }
+
+  .Profile-edit_remove_button{
+    left: 25%;
+  }
+
+  .Profile-edit_save_button{
+    right: 10%;
+  }
+
+  .Profile-edit_cancel_button{
+    right: 5%;
+  }
+
+}
+
+
+@media screen and (min-width:320px) and (max-width: 360px) {
+  
+ .Profile-edit_save_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 18%;
+    width: 45px;
+    height: 35px;
+    font-size: x-small;
+  }
+
+  .Profile-edit_cancel_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 3%;
+    width: 45px;
+    height: 35px;
+    font-size: x-small;
+  }
+
+  .Profile-edit_upload_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -32%;
+    left: 40%;
+    height: 33px;
+    width: 90px;
+    border-radius: 8px ;
+    font-size: xx-small;
+
+  }
+
+.Profile-edit_remove_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -32%;
+  left: 68%;
+  color: #689F38;
+  border: 1px solid #689F38;
+  border-radius: 8px ;
+  height: 33px;
+  width: 55px;
+  font-size: xx-small;
+}
+
+.Profile-edit_input ::placeholder{
+  color: #ccc;
+  font-size: 10px;
+
+}
+.Profile-edit_bottom_title_text{
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+}
+
+
+
+@media screen and (min-width:360px) and (max-width: 430px) {
+   .Profile-edit_save_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 18%;
+    width: 45px;
+    height: 35px;
+    font-size: x-small;
+  }
+
+  .Profile-edit_cancel_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 5%;
+    width: 45px;
+    height: 35px;
+    font-size: x-small;
+  }
+
+  .Profile-edit_upload_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -32%;
+    left: 35%;
+    height: 33px;
+    width: 90px;
+    border-radius: 8px ;
+    font-size: xx-small;
+
+  }
+
+.Profile-edit_remove_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -32%;
+  left: 59.5%;
+  color: #689F38;
+  border: 1px solid #689F38;
+  border-radius: 8px ;
+  height: 33px;
+  width: 55px;
+  font-size: xx-small;
+}
+
+.Profile-edit_input ::placeholder{
+  color: #ccc;
+  font-size: 10px;
+
+}
+.Profile-edit_bottom_title_text{
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+}
+
+
+
+
+@media screen and (min-width:430px) and (max-width: 500px) {
+   .Profile-edit_save_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 18%;
+    width: 46px;
+    height: 35px;
+    font-size: small;
+  }
+
+  .Profile-edit_cancel_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 7%;
+    width: 46px;
+    height: 35px;
+    font-size: small;
+    border-radius: 8px;
+  }
+
+  .Profile-edit_upload_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -32%;
+    left: 32%;
+    height: 33px;
+    width: 90px;
+    border-radius: 8px;
+    font-size: xx-small;
+
+  }
+
+.Profile-edit_remove_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -32%;
+  left: 53%;
+  color: #689F38;
+  border: 1px solid #689F38;
+  border-radius: 8px ;
+  height: 33px;
+  width: 55px;
+  font-size: xx-small;
+}
+
+.Profile-edit_input ::placeholder{
+  color: #ccc;
+  font-size: 10px;
+
+}
+.Profile-edit_bottom_title_text{
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+}
+
+
+@media screen and (min-width:500px) and (max-width: 600px) {
+   .Profile-edit_save_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 18%;
+    width: 50px;
+    height: 32px;
+    font-size: 11px !important;
+    font-weight: 400;
+    border-radius: 8px;
+  }
+
+  .Profile-edit_cancel_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 7%;
+    width: 52px;
+    height: 32px;
+   font-size: 11px !important;
+    font-weight: 200;
+    border-radius: 8px;
+  }
+
+  .Profile-edit_upload_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -32%;
+    left: 30%;
+    height: 29px;
+    width: 115px;
+    font-size: 11px !important;
+    font-weight: 120px;
+    border-radius: 8px;
+
+  }
+
+.Profile-edit_remove_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -32%;
+  left: 53%;
+  color: #689F38;
+  border: 1px solid #689F38;
+  border-radius: 15px ;
+  height: 29px;
+  width: 60px;
+  font-size: 11px !important;
+  font-weight: 120px;
+    border-radius: 8px;
+}
+
+.Profile-edit_input ::placeholder{
+  color: #ccc;
+  font-size: 10px;
+
+}
+.Profile-edit_bottom_title_text{
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+}
+
+@media screen and (min-width:550px) and (max-width: 600px) {
+  .Profile-edit-Image{
+  width: 100px;
+  height: 100px;
+  bottom: -40%;
+  left:12%;
+  
+}
+}
+
+
+@media screen and (min-width:600px) and (max-width: 700px) {
+  .Profile-edit-Image{
+  width: 110px;
+  height: 110px;
+  bottom: -48%;
+  left:12%;
+  
+}
+
+   .Profile-edit_save_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 18%;
+    width: 50px;
+    height: 32px;
+    font-size: 11px !important;
+    font-weight: 400;
+    border-radius: 8px;
+  }
+
+  .Profile-edit_cancel_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 7%;
+    width: 52px;
+    height: 32px;
+    font-size: 11px !important;
+    font-weight: 200;
+    border-radius: 8px;
+  }
+
+  .Profile-edit_upload_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -32%;
+    left: 30%;
+    height: 29px;
+    width: 115px;
+    font-size: 11px !important;
+    font-weight: 120;
+    border-radius: 8px;
+
+  }
+
+.Profile-edit_remove_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -32%;
+  left: 53%;
+  color: #689F38;
+  border: 1px solid #689F38;
+  border-radius: 15px;
+  height: 29px;
+  width: 60px;
+  font-size: 11px !important;
+    font-weight: 120;
+    border-radius: 8px;
+}
+
+.Profile-edit_input ::placeholder{
+  color: #ccc;
+  font-size: 10px;
+
+}
+.Profile-edit_bottom_title_text{
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+}
+
+
+@media screen and (min-width:700px) and (max-width: 768px) {
+  .Profile-edit-Image{
+  width: 120px;
+  height: 120px;
+  bottom: -55%;
+  left:12%;
+  
+  }
+
+   .Profile-edit_save_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 18%;
+    width: 50px;
+    height: 32px;
+    font-size: 12px !important;
+    font-weight: 400;
+    border-radius: 8px;
+  }
+
+  .Profile-edit_cancel_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 10%;
+    width: 52px;
+    height: 32px;
+    font-size: 12px !important;
+    font-weight: 200;
+    border-radius: 8px;
+  }
+
+  .Profile-edit_upload_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -32%;
+    left: 28.5%;
+    height: 29px;
+    width: 115px;
+    font-size: 11px !important;
+    font-weight: 120px;
+    border-radius: 8px;
+
+  }
+
+.Profile-edit_remove_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -32%;
+  left: 45.5%;
+  color: #689F38;
+  border: 1px solid #689F38;
+  border-radius: 15px;
+  height: 29px;
+  width: 60px;
+  font-size: 11px !important;
+  font-weight: 120px;
+    border-radius: 8px;
+}
+}
+
+
+@media screen and (min-width:768px) and (max-width: 900px) {
+  .Profile-edit-Image{
+  width: 130px;
+  height: 130px;
+  bottom: -32%;
+  left:12%;
+  
+  }
+
+   .Profile-edit_save_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 18%;
+    width: 50px;
+    height: 32px;
+    font-size: 12px !important;
+    font-weight: 400;
+    border-radius: 8px;
+  }
+
+  .Profile-edit_cancel_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 10%;
+    width: 52px;
+    height: 32px;
+    font-size: 12px !important;
+    font-weight: 200;
+    border-radius: 8px;
+  }
+
+  .Profile-edit_upload_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -28%;
+    left: 28%;
+    height: 32px;
+    width: 115px;
+    font-size: 11px !important;
+    font-weight: 120px;
+    border-radius: 8px;
+
+  }
+
+.Profile-edit_remove_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -28%;
+  left: 43%;
+  color: #689F38;
+  border: 1px solid #689F38;
+  border-radius: 15px;
+  height: 32px;
+  width: 60px;
+  font-size: 12px !important;
+    font-weight: 120px;
+    border-radius: 8px;
+}
+}
+
+
+
+@media screen and (min-width:900px) and (max-width: 1000px) {
+  .Profile-edit-Image{
+  width: 140px;
+  height: 140px;
+  bottom: -38%;
+  left:12%;
+  
+  }
+
+   .Profile-edit_save_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 18%;
+    width: 52px;
+    height: 34px;
+    font-size: 12px !important;
+    font-weight: 400;
+    border-radius: 8px;
+  }
+
+  .Profile-edit_cancel_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 11.5%;
+    width: 54px;
+    height: 34px;
+    font-size: 12px !important;
+    font-weight: 200;
+    border-radius: 8px;
+  }
+
+  .Profile-edit_upload_button{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: -28%;
+    left: 28%;
+    height: 35px;
+    width: 115px;
+    font-size: 11px !important;
+    font-weight: 120px;
+    border-radius: 8px;
+
+  }
+
+.Profile-edit_remove_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -28%;
+  left: 43%;
+  color: #689F38;
+  border: 1px solid #689F38;
+  border-radius: 15px;
+  height: 34px;
+  width: 60px;
+  font-size: 11px !important;
+    font-weight: 120px;
+    border-radius: 8px;
+}
+}
+
+
+/* ---- --------------------------------------------------------------------------*/
+
+@media screen and (min-width:764px) and (max-width: 992px) {
+ .Profile-edit-Image{
+  width: 120px;
+  height: 120px;
+  bottom: -29%;
+}
+
+}
+
+@media screen and (min-width:700px) and (max-width: 760px){
+ .Profile-edit-Image{
+  width: 115px;
+  height: 115px;
+  bottom: -59%;
+}
+
+  .Profile-edit_bottom_title{
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width:760px) and (max-width: 790px){
+ .Profile-edit-Image{
+  width: 120px;
+  height: 120px;
+  bottom: -59%;
+}
+
+.Profile-edit_bottom_title{
+    margin-top: 10px;
+  }
+
+}
+
+
+@media screen and (min-width:799px) and (max-width: 1000px){
+ .Profile-edit-Image{
+  width: 130px;
+  height: 130px;
+  bottom: -37%;
+}
+
+  .Profile-edit_bottom_title{
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width:1440px){
+  .Profile-edit-Image{
+  width: 155px;
+  height: 155px;
+  /* bottom: -37%; */
+}
+}
+
+@media screen and (min-width:1024px){
+  .Profile-edit_upload_button{
+    margin-right: 90px;
+}
+}

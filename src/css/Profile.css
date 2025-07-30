@@ -1,0 +1,379 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+.Profile_main_container{
+  width: 100vw;
+  padding-top: 40px;
+}
+
+.Profile_top_container{
+  display: flex;
+  flex-direction: column;
+}
+
+.Profile_banner_container{
+  background-image: url('/images/profile_background.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 35vh;
+  position: relative;
+  /* margin-bottom: 85px; */
+}
+.Profile_banner_button{
+  position: absolute;
+  bottom: 8%;
+  right: 10%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px ;
+}
+
+.Profile_banner_info{
+  background-color: white;
+  height: 15vh;
+  width: 100%;
+  /* flex: 3; */
+}
+
+.Profile_bottom_container{
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.Profile-Image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -30%;
+  left: 10%;
+  border: 6px solid white;
+}
+
+.Profile_name{
+  position: absolute;
+  bottom: -20%;
+  left: 20%;
+  color: black;
+  font-size: 2rem;
+}
+
+.Profile_bottom_title{
+  width: 80%;
+}
+
+.Profile_items_container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  gap: 16px;
+  border: 1px solid #F0F1F2;
+  border-radius: 25px;
+}
+
+.Profile_bottom_title_text{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.Profile_items{
+   /* width: 20%; */
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+  color: black;
+  width: 250px;
+  text-align: left;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1250px) {
+  .Profile_items{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+  color: black;
+  width: 200px;
+  text-align: left;
+}
+.Profile_name{
+  position: absolute;
+  bottom: -20%;
+  left: 25%;
+  color: black;
+  font-size: 2rem;
+}
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1250px) {
+  .Profile_name{
+  position: absolute;
+  bottom: -20%;
+  left: 23%;
+  color: black;
+  font-size: 2rem;
+}
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  .Profile_items_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Four equal columns */
+    gap: 16px;
+    border: 1px solid #F0F1F2;
+    border-radius: 25px;
+  }
+  .Profile_name{
+ 
+  left: 29%;
+  
+}
+  
+}
+
+@media screen and (min-width: 750px) and (max-width: 900px) {
+  .Profile_items_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Four equal columns */
+    gap: 16px;
+    border: 1px solid #F0F1F2;
+    border-radius: 25px;
+  }
+
+  .Profile_items{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+  color: black;
+  width: 200px;
+  text-align: left;
+}
+.Profile_name{
+  position: absolute;
+  bottom: -20%;
+  left: 30%;
+  color: black;
+  font-size: 1.8rem;
+}
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 750px) {
+   .Profile_items_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Four equal columns */
+    gap: 16px;
+    border: 1px solid #F0F1F2;
+    border-radius: 25px;
+  }
+    .Profile_name{
+    position: absolute;
+    bottom: -20%;
+    left: 31%;
+    color: black;
+    font-size: 2rem;
+  }
+  .Profile_banner_info{
+  background-color: white;
+  height: 9vh;
+  width: 100%;
+  /* flex: 3; */
+}
+ .Profile_banner_button{
+    position: absolute;
+    bottom: 8%;
+    right: 10%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px ;
+    height: 38px;
+    width: 110px;
+    font-size: 13px;
+  }
+  .Profile_bottom_title_text{
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+.Profile_items{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+  color: black;
+  width: 200px;
+  text-align: left;
+  }
+  .Profile_name{
+  position: absolute;
+  bottom: -20%;
+  left: 36%;
+  color: black;
+  font-size: 2rem;
+}
+
+  .Profile_items_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Four equal columns */
+    gap: 16px;
+    border: 1px solid #F0F1F2;
+    border-radius: 25px;
+  }
+  .Profile_banner_info{
+  background-color: white;
+  height: 9vh;
+  width: 100%;
+  /* flex: 3; */
+}
+.Profile_banner_button{
+    position: absolute;
+    bottom: 8%;
+    right: 10%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px ;
+    height: 34px;
+    width: 100px;
+    font-size: 13px;
+  }
+
+  .Profile_bottom_title_text{
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+   .Profile_items_container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Four equal columns */
+    gap: 16px;
+    border: 1px solid #F0F1F2;
+    border-radius: 25px;
+  }
+
+  .Profile_bottom_title_text{
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+  
+  .Profile_name{
+  position: absolute;
+  bottom: -20%;
+  left: 38%;
+  color: black;
+  font-size: 1.6rem;
+}
+
+.Profile_banner_container{
+  height: 28vh;
+  position: relative;
+  /* margin-bottom: 85px; */
+}
+
+ .Profile_banner_button{
+    position: absolute;
+    bottom: 8%;
+    right: 10%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px ;
+    height: 30px;
+    width: 80px;
+    font-size: 10px;
+  }
+
+.Profile-Image{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -25%;
+  left: 10%;
+  border: 6px solid white;
+}
+.Profile_banner_info{
+  background-color: white;
+  height: 9vh;
+  width: 100%;
+  /* flex: 3; */
+}
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+ .Profile_banner_button{
+    position: absolute;
+    bottom: 8%;
+    right: 10%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px ;
+    height: 30px;
+    width: 80px;
+    font-size: 10px;
+  }
+  .Profile_banner_container{
+  height: 30vh;
+  position: relative;
+  /* margin-bottom: 85px; */
+}
+
+.Profile_bottom_title_text{
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+   .Profile_items_container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Four equal columns */
+    gap: 16px;
+    border: 1px solid #F0F1F2;
+    border-radius: 25px;
+  }
+  
+  .Profile_name{
+  position: absolute;
+  bottom: -20%;
+  left: 43%;
+  color: black;
+  font-size: 1.5rem;
+}
+.Profile-Image{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -25%;
+  left: 10%;
+  border: 6px solid white;
+}
+.Profile_banner_info{
+  background-color: white;
+  height: 9vh;
+  width: 100%;
+  /* flex: 3; */
+}
+}

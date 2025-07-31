@@ -1,3 +1,7 @@
+
+
+Laptop View
+
 <img width="1351" height="630" alt="Caedbfewyupture" src="https://github.com/user-attachments/assets/2232b2d0-7c2c-4bce-8491-a07be900d849" />
 <img width="756" height="417" alt="Cadbvhjfpture" src="https://github.com/user-attachments/assets/e3e535c9-b5f9-47e6-a73e-04d91d6a1c74" />
 <img width="1357" height="628" alt="Captjewfbfyuure" src="https://github.com/user-attachments/assets/4147bb99-874b-45ef-a98f-efa38bbdadc1" />
